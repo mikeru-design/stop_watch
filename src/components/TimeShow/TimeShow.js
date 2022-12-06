@@ -20,10 +20,6 @@ const TimeShow = props => {
       <span>
         {("0" + ((props.time / 10) % 100)).slice(-2)}
       </span>
-      <span> :: </span>
-      <span>
-         {props.time}
-      </span>
     </div>
   )
 }
