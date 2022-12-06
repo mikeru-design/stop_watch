@@ -1,0 +1,22 @@
+.button{
+  padding: 10px 20px;
+  margin: 5px;
+  background-color: rgb(41, 30, 75);
+
+  color: whitesmoke;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: .7rem;
+  letter-spacing: 2px;
+
+  border-radius: 10px;
+  border: none;
+  box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.221);
+
+  cursor: pointer;
+  transition: .3s;
+
+  &:hover{
+    transform: scale(1.1);
+  }
+}
